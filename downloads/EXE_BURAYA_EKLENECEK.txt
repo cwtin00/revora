@@ -1,0 +1,4 @@
+REVORA MOTO Windows PC kurulum dosyasini bu klasore yukleyin.
+Dosya adi: REVORA-MOTO-Setup.exe
+Dosya gercekten yuklendikten ve dogrulandiktan sonra assets/js/config.js icinde release.windows.available degerini true yapin.
+Dosyanin boyutunu ve SHA-256 ozetini dogrulayin. Netlify icin buyuk dosyalarin ayri bir dosya depolama/CDN uzerinde sunulmasi daha uygun olabilir.
