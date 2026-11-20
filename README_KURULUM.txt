@@ -39,3 +39,10 @@ SOSYAL MEDYA GUNCELLEMESI (17.11.2026)
 TikTok: https://www.tiktok.com/@hardcorerider11
 Telegram: https://t.me/+flix45VnpHE5ZTc0
 Iletisim formu kaldirildi; dogrudan sosyal medya kartlari eklendi. Instagram baglantisi verilmedigi icin gizlendi.
+
+GOOGLE PLAY GIZLILIK SAYFASI (20.11.2026)
+- gizlilik-politikasi.html olusturuldu; eski gizlilik.html da korunuyor.
+- Sitenin alt bilgisi artik yeni gizlilik sayfasina baglaniyor.
+- YAYIN_ONCESI_KONTROL.txt dosyasindaki kontrol listesi bitirilmelidir.
+- Gercek destek e-postasi bilinmedigi icin doldurulmadi.
+- Google Play'e girmeden once sayfanin HTTPS uzerinden acildigini dogrulayin.

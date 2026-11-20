@@ -15,5 +15,5 @@ window.REVORA_CONFIG = {
     "telegram": "https://t.me/+flix45VnpHE5ZTc0"
   },
   "contactEmail": "",
-  "siteUrl": "https://example.com"
+  "siteUrl": "https://revoramoto.com.tr"
 };

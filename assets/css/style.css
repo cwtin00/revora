@@ -12,3 +12,23 @@
 .contact-info-note strong{font-size:12px;letter-spacing:.14em;color:#fff}
 .contact-info-note p{margin:9px 0 0;font-size:13px;line-height:1.7}
 @media(max-width:760px){.social-contact-card{min-height:280px}}
+
+/* REVORA MOTO - privacy page (mobile-friendly, consistent with site theme) */
+.legal-hero{padding-bottom:68px}
+.legal-revora{max-width:930px}
+.legal-revora p,.legal-revora li{font-size:15px;line-height:1.85}
+.legal-revora strong{color:#f7f8fb}
+.legal-revora h2{font-size:clamp(28px,4vw,38px);line-height:1.12;margin:45px 0 16px;scroll-margin-top:108px}
+.legal-revora a{color:#ff8c96;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.legal-revora ul{padding-left:23px;margin:18px 0}
+.legal-revora li{padding:5px 0}
+.policy-info{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#31353e;border:1px solid #31353e;margin-bottom:34px}
+.policy-info>div{background:#16191f;padding:19px 17px;display:grid;gap:8px}
+.policy-overline{display:block;text-transform:uppercase;font-size:10px;letter-spacing:.14em;font-weight:800;color:#ff5966}
+.policy-info strong{font-weight:700;font-size:13px;line-height:1.5}
+.policy-toc{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid #343942;padding-bottom:25px;margin-bottom:45px}
+.policy-toc .policy-overline{width:100%;margin-bottom:2px}
+.policy-toc a{color:#e2e4e8;text-decoration:none;background:#181c23;border:1px solid #303540;padding:7px 12px;font-size:12px;border-radius:2px}
+.policy-toc a:hover{background:#2a2027;border-color:#ff5966}
+.policy-small{border-left:2px solid #c62e3d;padding:14px 18px;background:#ff323e0c;margin-top:36px}
+@media(max-width:760px){.legal-hero{padding-bottom:50px}.policy-info{grid-template-columns:1fr}.policy-info>div{padding:15px}.legal-revora h2{scroll-margin-top:80px}.legal-revora p,.legal-revora li{font-size:14px}.policy-toc{gap:8px}}

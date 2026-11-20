@@ -1,0 +1,45 @@
+REVORA MOTO - GOOGLE PLAY GIZLILIK POLITIKASI KONTROL LISTESI
+===========================================================
+
+ANA SAYFA (PUBLIC / GIZLILIK):
+https://revoramoto.com.tr/gizlilik-politikasi.html
+
+DOSYALAR:
+- gizlilik-politikasi.html: Android oyun ve web sitesi politikasinin yeni sayfasi.
+- gizlilik.html: eski baglantilarin bozulmamasi icin ayni icerigi korur.
+- TUM HTML sayfalarda alt bilgi baglantilari yeni adrese yonlendirilir.
+- CNAME: GitHub Pages icin mevcut revora alan adini korur.
+- index.html dosyasi ZIP'in kokundedir (GitHub Pages repo kokune yukleyin).
+
+YAYINLAMADAN ONCE MUTLAKA:
+[ ] 1. Gercek destek / gizlilik basvurusu e-postasi temin edin.
+       assets/js/config.js > contactEmail alanina GERCEK, CALISAN e-postayi yazin.
+       Mevcut ZIP'te bu alan bos. E-posta uydurulmadi.
+       Google Play magaza destek e-postasiyla tutarli olsun.
+[ ] 2. Android APK/AAB'de gercekte kullanilan SDK'lari ve izinleri denetleyin.
+       AdMob, Play Billing, crash analytics, Firebase vb. varsa kapsamlarini dogrulayin.
+[ ] 3. Gizlilik politikasindaki veri kategorileri, saklama/silme mekanizmasi,
+       veri aktarimi ve izin metinlerini GERCEK uygulama davranisina gore guncelleyin.
+[ ] 4. Oyun icinde Ayarlar > Gizlilik Politikasi gibi kolay bulunur aktif baglanti ekleyin.
+[ ] 5. Google Play Console > Veri guvenligi formunu gercek SDK davranislariyla
+       uyumlu doldurun. Sadece sitedeki metinden otomatik cevap uretmeyin.
+[ ] 6. ZIP'i GitHub Pages reposunda yayinlayin; gercek URL'yi telefondan
+       ve gizli pencereden acip kontrol edin. HTTPS sertifikasi calismali.
+[ ] 7. AdMob kullanimina uygun kullanici rizasi / reklamlari kontrol edin.
+       Hesap acma ozelligi eklenirse hesap silme surecini gerceklestirin.
+
+YAYINA ALMA - GITHUB PAGES:
+1) Bu ZIP dosyasini acip ICINDEKI dosyalari repo kokune yukleyin.
+   index.html ve gizlilik-politikasi.html ust klasorde kalmasin.
+2) Degisiklikleri main (veya aktif Pages branch) ile yayinlayin.
+3) https://revoramoto.com.tr/gizlilik-politikasi.html adresini kontrol edin.
+4) Calisiyorsa Google Play Console gizlilik politikasi URL alanina yapistirin.
+
+YAYINA ALMA - NETLIFY:
+Site Netlify uzerinden sunuluyorsa bu ZIP'in kok dizinini siteye deploy edin.
+CNAME dosyasi GitHub Pages'e yoneliktir; Netlify kullaniyorsaniz DNS ve
+alan adi ayarlarinizi koruyun.
+
+NOT:
+Bu arsiv yalnizca web sitesi dosyalarini icerir; oyun projesi / APK yoktur.
+Uygulama koduna erisilmedigi icin tam politika uyumlulugu dogrulanamadi.
