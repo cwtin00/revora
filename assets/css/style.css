@@ -13,22 +13,27 @@
 .contact-info-note p{margin:9px 0 0;font-size:13px;line-height:1.7}
 @media(max-width:760px){.social-contact-card{min-height:280px}}
 
-/* REVORA MOTO - privacy page (mobile-friendly, consistent with site theme) */
-.legal-hero{padding-bottom:68px}
-.legal-revora{max-width:930px}
-.legal-revora p,.legal-revora li{font-size:15px;line-height:1.85}
-.legal-revora strong{color:#f7f8fb}
-.legal-revora h2{font-size:clamp(28px,4vw,38px);line-height:1.12;margin:45px 0 16px;scroll-margin-top:108px}
-.legal-revora a{color:#ff8c96;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
-.legal-revora ul{padding-left:23px;margin:18px 0}
-.legal-revora li{padding:5px 0}
-.policy-info{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#31353e;border:1px solid #31353e;margin-bottom:34px}
-.policy-info>div{background:#16191f;padding:19px 17px;display:grid;gap:8px}
-.policy-overline{display:block;text-transform:uppercase;font-size:10px;letter-spacing:.14em;font-weight:800;color:#ff5966}
-.policy-info strong{font-weight:700;font-size:13px;line-height:1.5}
-.policy-toc{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-bottom:1px solid #343942;padding-bottom:25px;margin-bottom:45px}
-.policy-toc .policy-overline{width:100%;margin-bottom:2px}
-.policy-toc a{color:#e2e4e8;text-decoration:none;background:#181c23;border:1px solid #303540;padding:7px 12px;font-size:12px;border-radius:2px}
-.policy-toc a:hover{background:#2a2027;border-color:#ff5966}
-.policy-small{border-left:2px solid #c62e3d;padding:14px 18px;background:#ff323e0c;margin-top:36px}
-@media(max-width:760px){.legal-hero{padding-bottom:50px}.policy-info{grid-template-columns:1fr}.policy-info>div{padding:15px}.legal-revora h2{scroll-margin-top:80px}.legal-revora p,.legal-revora li{font-size:14px}.policy-toc{gap:8px}}
+/* REVORA MOTO PC Beta release - prominent, responsive download treatment */
+.tag-live{background:#ff323e20;border-color:#ff4854;color:#fff;gap:8px;white-space:nowrap}
+.beta-live-dot{display:inline-block;flex:none;width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px #4ade8019,0 0 12px #4ade807a}
+.hero-beta-note{display:flex;align-items:center;gap:11px;flex-wrap:wrap;color:#e8e8eb;font-size:12px;padding:12px 15px;width:fit-content;max-width:100%;border:1px solid #71353b;background:#191217bb;margin-top:-15px;margin-bottom:24px}
+.hero-beta-note strong{color:#fff;letter-spacing:.045em}
+.hero-beta-note span:last-child{color:#c0c3cc}
+.download-card{position:relative;overflow:hidden;background:radial-gradient(circle at 98% 0%,#70131f54,transparent 48%),linear-gradient(145deg,#211118,#111318);min-height:0}
+.download-card h2{margin-top:28px;margin-bottom:20px;font-size:clamp(53px,5.6vw,82px)}
+.download-card .beta-intro{max-width:580px;line-height:1.8;font-size:15px}
+.download-card .beta-intro strong{color:#fff}
+.beta-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:26px 0 22px}
+.beta-highlights>div{padding:15px 10px;border:1px solid #57303a;background:#0f1116cc;display:grid;gap:4px}
+.beta-highlights strong{font:800 clamp(22px,2.8vw,33px)/1 'Barlow Condensed',Impact,sans-serif;color:#fff}
+.beta-highlights span{font-size:10px;letter-spacing:.12em;color:#c2c4ca;font-weight:800}
+.download-actions{display:flex;gap:11px;flex-wrap:wrap;align-items:center}
+.download-actions .btn-download{min-height:62px;font-size:14px;letter-spacing:.03em;box-shadow:0 13px 40px #ff323e4a;text-align:center}
+.download-actions .btn-outline{min-height:62px}
+.download-helper{margin:15px 0 0;font-size:12px;color:#b8beca;line-height:1.9}
+.download-helper span{color:#ff505f;margin:0 4px}
+.beta-terms{margin-top:23px;border-left:3px solid #ff323e;background:#ff323e0d;padding:17px 19px}
+.beta-terms>strong{font-size:12px;letter-spacing:.12em;color:#fff}
+.beta-terms p{font-size:13px;color:#c5c7d0;line-height:1.75;margin:8px 0 0}
+.beta-terms p strong{color:#fff}
+@media(max-width:760px){.download-card{padding:25px}.download-card .platform{gap:9px;flex-wrap:wrap}.download-card h2{font-size:clamp(54px,13vw,82px)}.download-actions .btn{width:100%}.beta-highlights{gap:6px}.beta-highlights>div{padding:11px 8px}.beta-highlights strong{font-size:26px}.beta-highlights span{font-size:9px}.hero-beta-note{margin-top:0;line-height:1.5}.hero-actions .btn{white-space:normal;text-align:center}}

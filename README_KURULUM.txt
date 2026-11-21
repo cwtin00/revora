@@ -16,13 +16,19 @@ YAYINA ALMA
 4. assets/js/config.js dosyasini gercek sosyal medya adresleri ve destek e-postasiyla guncelleyin.
 5. assets/images klasorundeki tanitim gorsellerini dilerseniz gercek oyun ici ekran goruntuleriyle degistirin.
 
-WINDOWS EXE INDIRME
-1. Windows kurulum dosyasi gercekten hazir oldugunda adi REVORA-MOTO-Setup.exe olacak sekilde dosyayi downloads/ klasorune koyun.
-2. EXE'nin guvenilirliginden emin olun; zararlilara karsi kontrol, surum ve SHA-256 dogrulamasi yapin. Windows SmartScreen uyarilari icin kod imzalama dusunun.
-3. assets/js/config.js: release.windows.available = true ve release.windows.file = 'downloads/REVORA-MOTO-Setup.exe' yapin. Size/date/version/sha256 alanlarini doldurun.
-4. Buyuk EXE dosyalari icin CDN veya nesne depolama kullanmak daha verimli olabilir. Bu durumda file alanina dogrulanmis HTTPS indirme URL'si yazin; ayni dosyaya ait gercek link oldugundan emin olun.
-5. Config dosyasi acikca dosya durumunu yonetir; EXE eklenmedigi surece sitede indirme butonu pasif kalir.
-6. Kurulum paketi bu ZIP icerisinde YOKTUR. Ayrica eklenmesi gerekir.
+PC BETA INDIRME (21.11.2026)
+1. Ucretsiz PC BETA v0.1.0 surumu, GitHub Releases uzerinde bulunur:
+   https://github.com/cwtin00/revora-moto-downloads/releases/download/v0.1.0-beta/REVORA_MOTO_PC_BETA.zip
+2. Kullanici index.html ana sayfasindaki butona veya indir.html uzerindeki
+   'PC BETA'YI UCRETSIZ INDIR' butonuna tikladiginda ZIP dosyasi indirilir.
+3. PC Beta'da 14 motosiklet gecici olarak aciktir. Yeni surumlerde normal
+   kilit sistemi geri doner; eski beta build uzaktan silinmez.
+4. Burada verilen WEBSITE ZIP dosyasinin icinde PC oyununun 298 MB ZIP paketi
+   YOKTUR; dosya ayri GitHub Release asset'i olarak barindirilmaktadir.
+5. Gelecekte yeni beta surumu yuklenirse assets/js/config.js ve HTML sayfalardaki
+   dogrudan indirme linklerini, versiyon ve boyut bilgilerini guncelleyin.
+6. Oyun EXE dosyalari dijital imzasizdir; Windows SmartScreen uyari verebilir.
+7. Site kendi ZIP dosyasini barindirmaz. Buyuk dosyayi site deposuna atmayin.
 
 ILETISIM
 - assets/js/config.js icinde contactEmail alanini gercek destek adresiyle doldurun.
@@ -39,10 +45,3 @@ SOSYAL MEDYA GUNCELLEMESI (17.11.2026)
 TikTok: https://www.tiktok.com/@hardcorerider11
 Telegram: https://t.me/+flix45VnpHE5ZTc0
 Iletisim formu kaldirildi; dogrudan sosyal medya kartlari eklendi. Instagram baglantisi verilmedigi icin gizlendi.
-
-GOOGLE PLAY GIZLILIK SAYFASI (20.11.2026)
-- gizlilik-politikasi.html olusturuldu; eski gizlilik.html da korunuyor.
-- Sitenin alt bilgisi artik yeni gizlilik sayfasina baglaniyor.
-- YAYIN_ONCESI_KONTROL.txt dosyasindaki kontrol listesi bitirilmelidir.
-- Gercek destek e-postasi bilinmedigi icin doldurulmadi.
-- Google Play'e girmeden once sayfanin HTTPS uzerinden acildigini dogrulayin.
