@@ -45,3 +45,10 @@ SOSYAL MEDYA GUNCELLEMESI (17.11.2026)
 TikTok: https://www.tiktok.com/@hardcorerider11
 Telegram: https://t.me/+flix45VnpHE5ZTc0
 Iletisim formu kaldirildi; dogrudan sosyal medya kartlari eklendi. Instagram baglantisi verilmedigi icin gizlendi.
+
+ANDROID KAPALI BETA
+beta.html: TikTok bio icin tek linkli katilim sayfasi.
+Site adresi: https://revoramoto.com.tr/beta.html (alan adi siteye bagliysa)
+Google Grup: https://groups.google.com/g/revora-moto-beta
+Beta onay: https://play.google.com/apps/testing/com.cetinweb.hardcorerider
+Google Play: https://play.google.com/store/apps/details?id=com.cetinweb.hardcorerider
